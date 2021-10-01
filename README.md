@@ -5,9 +5,15 @@ In this analysis we refactored an existing VBA code that was created to evaluate
 
 
 ## Results: 
-Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
 
-In this VBA code, we were analyzing the performance of 12 stocks during 2017 and 2018. The original code was written with For Loops to loop through all of the stocks and create an output table that showed the Total Daily Volume for each stock as well as the return rate for the year. /assets/images/electrocat.png
+In this VBA code, we were analyzing the performance of 12 stocks during 2017 and 2018. The original code was written with For Loops to loop through all of the stocks and create an output table that showed the Total Daily Volume for each stock as well as the return rate for the year. 
+
+![Output-2017](/Output-2017.png). 
+![Output-2018](/Output-2018.png).
+
+As you can see, overall the stocks had better return rates in 2017 vs. 2018 based on the number of postive retun rates in green vs. negative return rated highlighted in red. 
+
+Both the original code and the refactored code were able to produce the same outcomes into the table, but the refactored code was able to perform the analysis significantly faster. The original code took approximately 0.504 and 0.492 seconds to run the code for 2017 and 2018, resectively. The refactored code was able to produce the same outcome for 2017 and 2018 in 0.0898 and 0.0859 seconds respectively. You can see that the refactored code would be much more efficient if used with an even larger origial data file of stocks to analyze. 
 
 ## Summary: 
 In a summary statement, address the following questions.
